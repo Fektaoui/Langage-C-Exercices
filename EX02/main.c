@@ -7,6 +7,6 @@ int main()
     float R;
     printf("Donner le rayon du cercle : \t");
     scanf("%f",&R);
-    printf("La surface du cercle est : S = %.2f",Pi*R*R);
+    printf("La surface du cercle est : S = %.2f",Pi*R*R); /* %.2f en conservant deux décimales après la virgule */
     return 0;
 }
